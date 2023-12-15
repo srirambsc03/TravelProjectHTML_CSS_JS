@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+
+    <link rel="stylesheet" href="t.css">
+
+    <!-- BootStrap Link cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- BootStrap Link cdn-->
+
+    <!-- Awesome Font cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <!-- Awesome Font cdn-->
+
+    <!-- font Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">  
+    <!-- font Style -->
+
+</head>
+<body>
+    <header class="header">
+
+    <!-- Header section -->
+    <a href="#" class="logo"><i  class="fas fa-paper-plane"> Travel</i></a>
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="Search here..." id="searchBox">
+        <label for="searchBox" class="fas fa-search"></label>
+    </form>
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-moon" id="theme-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <navbar class="navbar">
+        <a href="#home">Home</a>
+        <a href="#packages">Packages</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#gallery">Gallery</a>
+        <a href="login.html">Contact</a>
+        <a href="#about">About</a>
+    </navbar>
+
+
+    <form action="" class="login-form">
+        <div class="inputBox">
+            <span>Username</span>
+            <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="inputBox">
+            <span>Password  </span>
+            <input type="password" placeholder="Enter your password">
+        </div>
+        <div class="remember">
+            <input type="checkbox" name="" id="login-remember">
+            <label for="login-remember">Remember Me</label>
+        </div>
+        <input class="btn" type="submit" value="login">
+    </form>
+</header>
+<!-- home section -->
+
+<section class="home" id="home">
+    <marquee behavior="scroll" direction="left" style="font-weight: 800; font-size: 2.5rem; color: orange;">Travelling is an amazing way to learn a lot of things in life.</marquee>
+    <div class="image">
+        <img src="0 (92).jpg" alt="img" style="border-radius: 2.5rem;">
+    </div>
+    <div class="content">
+        <h1><div id="Header" style="color: orange; font-weight: 800;"></div> </h1> 
+        <p>Traveling is an incredible way to learn more about yourself and the world around you. It can be both exhilarating and calming, allowing you to take in the beauty of the scenery and the cultures of the people you meet. You can find yourself in faraway places, immersed in exotic flavors, sounds, and sights.
+            Travelling improves your mental health by helping you feel calm. Taking time from work to see new places releases the stress you've been holding on to, so much so that the feeling can only be described as feeling alive.
+        </p>
+            <a href="#" class="btn">explore now...</a>
+    </div>
+
+</section>
+
+<!-- form section -->
+
+<section class="form-container">
+    <form action="">
+        <div class="inputBox">
+            <span>Where to</span>
+            <input type="text" placeholder="Search Places">
+        </div>
+        <div class="inputBox">
+            <span>Leaving place</span>
+            <input type="text" placeholder="Your Place">
+        </div>
+        <div class="inputBox">
+            <span>Arrivals</span>
+            <input type="date">
+        </div>
+        <input type="submit" value ="Book Now" class="btn">
+        <!-- <input type="submit" value ="Edit Now" class="btn"> -->
+    </form>
+
+</section>
+
+
+ <!-- Book Section -->
+ <section class="book" id="book">
+    <div class="container">
+        <div class="main-text">
+            <h1><span>B</span>ook</h1>
+        </div>
+        <div class="row">
+
+            <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+                <img class="img1" src="img01 (12).jpg" alt="image">
+            </div>
+        </div>
+
+            <div class="col-md-6 py-3 py-md-0">
+                <form action="#">
+                    <input type="text" class="form-control" placeholder="Where To" required><br>
+                    <input type="text" class="form-control" placeholder="How Many" required><br>
+                    <input type="date" class="form-control" placeholder="Arrivals" required><br>
+                    <input type="date" class="form-control" placeholder="Leaving" required><br>
+                    <textarea name="text" class="form-control" rows="5" placeholder="Enter You Name &  Details"></textarea>
+                    <input type="submit" value="Book Now" class="submit" required>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- section package -->
+<section class="packages" id="packages">
+    <div class="container">
+
+        <div class="main-txt">
+            <h1><span>P</span>ackages</h1>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4 py-3 py-md-0">
+
+                <div class="card">
+                    <img src="0 (50).jpg" alt="img3">
+                    <div class="card-body">
+                        <h3>United State America </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit est.</p>
+                        <div class="star">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star "></i>
+                        </div>
+                        <h6>Price : <strong>$1700</strong></h6>
+                        <a href="#">Book Now</a>
+                </div>
+            </div>
+        </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="0 (73).jpg" alt="img3">
+                        <div class="card-body">
+                            <h3>United Kingdom </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, est.</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price : <strong>$1500</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+    
+                        <div class="card">
+                            <img src="0 (62).jpg" alt="img3">
+                            <div class="card-body">
+                                <h3>Canada</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, est.</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                </div>
+                                <h6>Price : <strong>$1500</strong></h6>
+                                <a href="#book">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+
+                        <div class="card">
+                            <img src="0 (45).jpg" alt="img3">
+                            <div class="card-body">
+                                <h3>Switzerland</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, est.</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                </div>
+                                <h6>Price : <strong>$1200</strong></h6>
+                                <a href="#book">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+
+                        <div class="card">
+                            <img src="0 (48).jpg" alt="img3">
+                            <div class="card-body">
+                                <h3>Iceland</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, est.</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                    <i class="fa-solid fa-star "></i>
+                                </div>
+                                <h6>Price : <strong>$900</strong></h6>
+                                <a href="#book">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+
+                        <div class="card">
+                            <img src="0 (11).jpg" alt="img3">
+                            <div class="card-body">
+                                <h3>Thailand</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, est.</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                </div>
+                                <h6>Price : <strong>$1999</strong></h6>
+                                <a href="#book">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+
+                        <div class="card">
+                            <img src="0 (43).jpg" alt="img3">
+                            <div class="card-body">
+                                <h3>Tuscany</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, est.</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                    <i class="fa-solid fa-star "></i>
+                                </div>
+                                <h6>Price : <strong>$899</strong></h6>
+                                <a href="#book">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 py-3 py-md-0">
+
+                        <div class="card">
+                            <img src="0 (83).jpg" alt="img3">
+                            <div class="card-body">
+                                <h3>Bolivia</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, est.</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                </div>
+                                <h6>Price : <strong>$1299</strong></h6>
+                                <a href="#book">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+
+                        <div class="card">
+                            <img src="0 (64).jpg" alt="img3">
+                            <div class="card-body">
+                                <h3>South Africa</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, est.</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                </div>
+                                <h6>Price : <strong>$999</strong></h6>
+                                <a href="#book">Book Now</a>
+                            </div>
+                        </div>
+                    </div>    
+
+     </div>
+    </div>
+    </section>
+
+    <!-- Service section -->
+
+
+
+<!-- package section -->
+<section class="packages" >
+    <h1 class="heading"><span>Our Packages</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="img01 (4).jpg" alt="img1">
+                <h3><i class="fas fa-map-marker-alt"></i>Canada</h3>
+            </div>
+            <div class="content">
+                <div class="price">$600.99 <span>$999.99</span></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatum in consectetur soluta corrupti illo 
+                  </p>
+                <a href="#" class="btn"  id="pricing">Book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img01 (10).jpg" alt="img1">
+                <h3><i class="fas fa-map-marker-alt"></i>Brazil</h3>
+            </div>
+            <div class="content">
+                <div class="price">$699.99 <span>$999.99</span></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatum in consectetur soluta corrupti illo 
+                  </p>
+                <a href="#" class="btn">Book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img01 (12).jpg" alt="img1">
+                <h3><i class="fas fa-map-marker-alt"></i>Paris</h3>
+            </div>
+            <div class="content">
+                <div class="price">$800.99 <span>$1299.99</span></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatum in consectetur soluta corrupti illo 
+                  </p>
+                <a href="#" class="btn">Book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img01 (13).jpg" alt="img1">
+                <h3><i class="fas fa-map-marker-alt"></i>London</h3>
+            </div>
+            <div class="content">
+                <div class="price">$1600.99 <span>$1900.99</span></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatum in consectetur soluta corrupti illo 
+                  </p>
+                <a href="#" class="btn">Book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img01 (6).jpg" alt="img1">
+                <h3><i class="fas fa-map-marker-alt"></i>UK</h3>
+            </div>
+            <div class="content">
+                <div class="price">$1300.99 <span>$1500.99</span></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatum in consectetur soluta corrupti illo 
+                  </p>
+                <a href="#" class="btn">Book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img01 (3).jpg" alt="img1">
+                <h3><i class="fas fa-map-marker-alt"></i>USA</h3>
+            </div>
+            <div class="content">
+                <div class="price">$1200.99 <span>$1400.99</span></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatum in consectetur soluta corrupti illo 
+                  </p>
+                <a href="#" class="btn">Book now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- service section -->
+
+
+
+    <section class="services" id ="services">
+        <div class="container">
+            <div class="main-txt">
+                <h1><span>S</span>ervice </h1>
+            </div>
+            <div class="row" style="margin-top:30px ;">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <i class="fas fa-hotel"></i>
+                    <div class="card-body" id="card-body1">
+                        <h3>Affordable Hotel</h3>
+                        <a href="#Service"></a>
+                        <p>Lorem ipsum dolor sit amet consectetur . </p>
+                    </div>
+                </div>
+            </div>
+
+
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <i class="fas fa-utensils"></i>
+                <div class="card-body">
+                    <h3>Food & Drinks</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+        </div>
+
+    <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+            <i class="fas fa-bullhorn"></i>
+            <div class="card-body">
+                <h3>Safty Guide</h3>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+            <i class="fas fa-globe-asia"></i>
+            <div class="card-body">
+                <h3>Around The World</h3>
+                <p>Lorem ipsum dolor sit amet nothing .</p>
+            </div>
+        </div>
+    </div>
+
+<div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+        <i class="fas fa-plane"></i>
+        <div class="card-body">
+            <h3>Fastest Travel</h3>
+            <p>Lorem ipsum dolor sit amet elit Qui </p>
+        </div>
+    </div>
+</div>
+<div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+        <i class="fas fa-hiking"></i>
+        <div class="card-body">
+            <h3>Adventures</h3>
+            <p>Lorem ipsum dolor sit amet consectetur .</p>
+        </div>
+    </div>
+</div>
+
+</div>    
+    </div>
+    </section>
+
+    <!-- section Gallery -->
+    <section class="gallary" id="gallery">
+        <div class="container">
+            <div class="main-txt">
+                <h1><span>G</span>allary</h1>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="img01 (16).jpg" alt="img3" height="230px">
+                </div>
+                </div>
+            
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="img01 (15).jpg" alt="img3" height="230px">
+                    </div>
+                </div>
+                
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card"><a href="#Service"></a>
+                            <img src="img01 (18).jpg" alt="img3" height="230px">
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="img01 (19).jpg" alt="img3" height="230px">
+                        </div>
+                        </div>
+                    
+                        <div class="col-md-4 py-3 py-md-0">
+                            <div class="card">
+                                <img src="img01 (20).jpg" alt="img3" height="230px">
+                            </div>
+                        </div>
+                        
+                            <div class="col-md-4 py-3 py-md-0">
+                                <div class="card">
+                                    <img src="img01 (24).jpg" alt="img3" height="230px">
+                                </div>
+                            </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- animation picture -->
+<!-- <div class="container" id="container1">
+    <div class="images">
+        <div class="im">
+        <img src="img01 (1).jpg" alt="#">
+        <img src="img01 (10).jpg"alt="#">
+        <img src="img01 (11).jpg" alt="#">
+        <img src="img01 (13).jpg" alt="#">
+        <img src="img01 (15).jpg" alt="#">
+        <img src="img01 (14).jpg" alt="#">
+        </div>
+    </div>
+</div> -->
+
+
+<!-- about start -->
+<section class="about" id="about">
+    <div class="container">
+        <div class="main-txt">
+            <h1>About<span>Us</span></h1>
+        </div>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="card">
+                    <img src="0 (86).jpg" alt="img8">
+                </div>
+            </div>
+        <div class="col-md-6 py-3 py-md-0">
+            <h2>How To Working Travel Agency</h2>
+            <p>The primary role of a travel agent is to help people make travel arrangements, which might include booking flights, hotels, sightseeing tours, and making dining recommendations. A travel agent assesses each customer's unique needs, preferences, and budget to ensure their trip goes as smoothly as possible.
+                Online travel booking websites work by allowing users to search for and book flights, hotels, rental cars, and other travel services on their platform. Users can enter their travel dates, destination, and other preferences, and the website will generate a list of available options for them to choose from.
+            </p>
+            <button type="button" id="about-btn">Read More...</button>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Footer page -->
+<footer id="footer">
+    <h1><span>T</span>ravel</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem quo neque culpa sapiente eius aperiam, tempore aliquam iste placeat fugit.</p>
+
+    <div class="row">
+        <div class="col">
+            <h3>Details</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis accusantium sunt nemo quam praesentium sit ea amet temporibus quae mollitia quaerat facere cumque alias veritatis iste, consequuntur deserunt. Dicta, iure!</p>
+        </div>
+        <div class="col">
+            <h3>Office</h3>
+            <p>BTM Layout</p>
+            <p>Bangaluru / Bangalore</p>
+            <p>Karnataka, Pin 560089, India</p>
+            <p><span>Email : </span><a href="">srirambsc03@gamil.com</a></p>
+            <p> <span>Phone : </span>(+91)-8072318458</p>
+        </div>
+        <div class="col">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#" id="book">Book</a></li>
+                <li><a href="#" id="packages">Packages</a></li>
+                <li><a href="#" id="gallery">Gallery</a></li>
+                <li><a href="#" id="service">Service</a></li>
+                <li><a href="#" id="contact">About</a></li>
+            </ul>
+        </div>
+        <div class="col"></div>
+    </div>
+
+    <div class="social-links">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <div class="credit"> 
+        <p>Website Designed By <a href="#">@SRI SRIRAM</a> </p>
+    </div>
+</footer>
+
+<!-- Mnother footer -->
+<!-- <footer>
+   
+</footer> -->
+
+    <script src="t.js">
+        
+    </script>
+</body>
+</html>
